@@ -111,13 +111,59 @@ body {
 
 
 
-#top_box {
-    padding: 30px 0 0 0;
+#top_message_box_innner{
+  widh:950px;
+  padding: 5px;
+  background: #C0C0C0
 }
 
-#top_message_box{
-    background: #ffffff;
-    height: 40px;
-    margin: 0;
-    padding: 4px 0;
+#message_box{
+  background: #fff;
+  height: 32px;
+  overflow: hidden;
+
+}
+
+#message_box dt{
+  float: left;
+}
+
+#message_box dd{
+  height: 32px;
+  float: left;
+}
+
+
+#marquee {
+    width: 835px;
+    position: relative;
+    overflow: hidden;
+    color: #333;
+    font-weight: bold;
+}
+
+#marquee_wrap {
+    position: relative;
+    height: 32px;
+    width: 3800px
+}
+
+#marquee_wrap dl{
+  position: absolute;
+  width: 835px;
+  height: 32px;
+  line-height: 32px
+}
+
+#marquee_wrap dt{
+  float: left;
+}
+
+#marquee_wrap dd{
+  float: left;
+  height: 32px;
+}
+
+#top_box {
+    padding: 20px 0 0 0;
 }
