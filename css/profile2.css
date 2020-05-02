@@ -1,0 +1,123 @@
+@@charset "UTF-8";
+
+
+html body {
+    font-family: "メイリオ", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS P ゴシック", "MS P Gothic", Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+body {
+    background: url("../images/basketball.jpg") no-repeat fixed left bottom;
+    background-size: cover;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+}
+
+
+#header {
+    background: #000000;
+    height: 98px;
+    position: relative;
+    margin: 0;
+}
+
+
+#header_inner h1{
+  width: 300px;
+  color: #ffffff;
+  background-color:#FFA200;
+
+}
+
+
+#header_inner {
+    width: 950px;
+    margin: 0 auto;
+    height: 98px;
+    position: relative;
+    display: flex;
+}
+
+#menu{
+  display:block;
+  width: 500px;
+  height: 98px;
+  padding: 35px 0;
+}
+
+#menu li{
+  display: inline-block;
+
+}
+
+#menu li a{
+  display: block;;
+  padding:10px 20px;
+  text-decoration: none;
+  color:#ffffff;
+}
+
+
+
+#content {
+    position: relative;
+    z-index: 1;
+  }
+
+  #content_inner {
+    width: 950px;
+    margin: 20px auto 0;
+}
+
+#slideMain{
+  position: relative;;
+  overflow: hidden;
+  height: 450px;
+
+}
+
+#slideMain ul{
+  position: absolute;
+  width: 2850px;
+}
+
+#slideMain li{
+  float: left;
+  width: 950px;
+  list-style-type: none;
+}
+
+#prevBtn{
+  position: absolute;
+  top:225px;
+  left:20px;
+}
+
+#nextBtn{
+  position: absolute;
+  top:225px;
+  right: 20px;
+}
+
+
+/*---------------*/
+
+
+
+#top_box {
+    padding: 30px 0 0 0;
+}
+
+#top_message_box{
+    background: #ffffff;
+    height: 40px;
+    margin: 0;
+    padding: 4px 0;
+}
