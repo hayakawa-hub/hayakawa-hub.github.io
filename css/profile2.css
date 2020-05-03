@@ -220,3 +220,49 @@ body {
     float: right;
     width: 160px;
 }
+
+/*--------------------------*/
+#hobby_box{
+  display: block;
+  background: #C0C0C0;
+  margin: 20px 0 20px 0;
+}
+
+#hobby_box_inner{
+  padding: 10px;
+  background: #C0C0C0;
+}
+
+
+#hobby_box_ttl{
+  position: relative;
+  padding: 0 0 10px 0;
+}
+
+
+#hobby_box_details{
+  display: block;
+  background-color: #fff;
+}
+
+#hobby_box_introduction p{
+  text-align: center;
+  line-height: 1.7rem
+}
+
+
+.subtitle{
+  margin:0 0 30px;
+  letter-spacing: 1px;
+}
+
+.subtitle::before,
+.subtitle::after{
+  content:'';
+  display: inline-block;;
+  width: 140px;
+  height: 2px;
+  margin:30px;
+  background-color: #000000;
+  vertical-align: middle;
+}
