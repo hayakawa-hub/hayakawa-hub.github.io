@@ -193,7 +193,17 @@ body {
    border-bottom: 1px dotted #666666;
 }
 
+
 .l h3{
-  margin:0 0 10px 0;
+  margin:0 0 20px 0;
+  font-weight: bold;
 }
+
+#top_box #news_box .news_box_list .l {
+    float: left;
+    width: 700px;
+  }
+#top_box #news_box .news_box_list .r {
+    float: right;
+    width: 160px;
 }
