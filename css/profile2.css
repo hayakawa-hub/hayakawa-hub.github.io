@@ -186,6 +186,7 @@ body {
   padding: 0 0 10px 0;
 }
 
+
 .news_box_list {
   background: #fff;
    position: relative;
@@ -205,6 +206,10 @@ body {
 .l h3{
   margin:0 0 20px 0;
   font-weight: bold;
+}
+
+#line_height{
+  line-height: 1.7rem;
 }
 
 #top_box #news_box .news_box_list .l {
