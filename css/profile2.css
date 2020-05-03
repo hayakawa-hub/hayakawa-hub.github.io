@@ -243,6 +243,7 @@ body {
 #hobby_box_details{
   display: block;
   background-color: #fff;
+  padding: 10px
 }
 
 #hobby_box_introduction p{
