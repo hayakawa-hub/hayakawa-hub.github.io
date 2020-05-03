@@ -170,9 +170,9 @@ body {
 /*------------------*/
 
 #news_box{
-padding: 5px;
-background: #C0C0C0
-margin: 20px 0 20px 0;
+  display: block;
+  background: #C0C0C0;
+  margin: 20px 0 20px 0;
 }
 
 #news_box_inner{
@@ -186,7 +186,14 @@ margin: 20px 0 20px 0;
   padding: 0 0 10px 0;
 }
 
-#top_box #news_box #news_box_detail {
-    background: #FFF;
-    padding: 10px;
+.news_box_list {
+  background: #fff;
+   position: relative;
+   padding: 10px;
+   border-bottom: 1px dotted #666666;
+}
+
+.l h3{
+  margin:0 0 10px 0;
+}
 }
