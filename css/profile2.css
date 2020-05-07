@@ -221,6 +221,9 @@ body {
     width: 160px;
 }
 
+.r img{
+  border-radius: 50%;
+}
 /*--------------------------*/
 #hobby_box{
   display: block;
@@ -266,4 +269,95 @@ body {
   margin:30px;
   background-color: #000000;
   vertical-align: middle;
+}
+
+
+#hobby_box_first{
+
+  border-top: 3px solid #d7d8df;
+  border-bottom: 1.5px solid #d7d8df;
+  background-color: #fafafa;
+  padding: 20px 25px 20px 30px;
+  width: auto ;
+
+}
+
+#hobby_box_second{
+
+  border-top: 1.5px solid #d7d8df;
+  border-bottom: 3px solid #d7d8df;
+  background-color: #fafafa;
+  padding: 20px 25px 20px 30px;
+  width: auto ;
+
+}
+
+#hobby_box_first_l{
+  float: left;
+}
+#hobby_box_first_r{
+  float: left;
+  width: 600px;
+  margin-left: 30px;
+}
+
+#hobby_box_first_ttl{
+  display: block;
+    font-size: 18px;
+    font-weight: bold;
+    height: auto ;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#hobby_box_second_r{
+  float: right;
+}
+
+#hobby_box_second_l{
+  float: left;
+  width: 600px;
+  margin-right: 30px;
+}
+
+#hobby_box_second_ttl{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    height: auto ;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#hobby_box_first_info p{
+  line-height: 1.3rem
+
+}
+
+#hobby_box_second_info p{
+    line-height: 1.3rem
+}
+
+#hobby_box_first_info a{
+  margin-top: 30px;
+  width: 80px;
+  height: 30px;
+  text-decoration: none;
+  border: 1px solid #ebebeb;
+  border-radius: 2px;
+  background: linear-gradient(#fefefe 0%, #ebebeb 100%);
+  display: block;
+  line-height: 33px;
+}
+
+#hobby_box_second_info a{
+  margin-top: 30px;
+  width: 80px;
+  height: 30px;
+  text-decoration: none;
+  border: 1px solid #ebebeb;
+  border-radius: 2px;
+  background: linear-gradient(#fefefe 0%, #ebebeb 100%);
+  display: block;
+  line-height: 33px;
 }
