@@ -143,16 +143,14 @@ body {
 }
 
 #marquee_wrap {
-    position: relative;
     height: 32px;
-    width: 3800px
+    width: 3340px
 }
 
 #marquee_wrap dl{
-  position: absolute;
-  width: 835px;
   height: 32px;
   line-height: 32px
+  width：835px;
 }
 
 #marquee_wrap dt{
@@ -360,4 +358,54 @@ body {
   background: linear-gradient(#fefefe 0%, #ebebeb 100%);
   display: block;
   line-height: 33px;
+}
+
+/*---------------------------------*/
+
+#fuzake_box{
+  display: block;
+  background: #C0C0C0;
+  margin: 20px 0 20px 0;
+}
+
+#fuzake_box_inner{
+  padding: 10px;
+  background: #C0C0C0;
+}
+
+#fuzake_box_ttl{
+  position: relative;
+  padding: 0 0 10px 0;
+}
+
+
+#fuzake_box_details{
+  display: block;
+  background-color: #fff;
+  padding: 10px
+}
+
+#main_image img{
+  border-radius: 50%;
+}
+
+#fuzake_box_inner{
+text-align: center;
+}
+
+#sub_img li{
+  display: inline-block;
+
+}
+
+#thanks {
+  background-color: #FFBA00;
+  width: 100px;
+  height: 30px;
+}
+
+#omg {
+  background-color: #FFBA00;
+  width: 100px;
+  height: 30px;
 }

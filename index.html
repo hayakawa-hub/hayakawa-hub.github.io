@@ -8,6 +8,10 @@
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/script2.js"></script>
+    <script src="js/script3.js"></script>
+    <script src="js/jquery.arctext.js" type="text/javascript"></script>
+    <script src="js/jquery.simpleTicker.js"></script>
+      <script src="js/jquery.simpleTicker.css"></script>
 
   </head>
 
@@ -65,23 +69,23 @@
                         </dt>
                         <dd id="marquee">
                             <div id="marquee_wrap">
-                              <dl class="clearfix" style="left:0px;">
+                              <dl class="clearfix" sytle="0px;">
                                 <dt>1994.03.08</dt>
                                 <dd>早川家の次男として小牧市民病院で生まれる
                                 </dd>
                               </dl>
-                              <dl class="clearfix">
+                              <dl class="clearfix" sytle="left:835px;">
                                 <dt>1994.xx.xx</dt>
                                 <dd>菌だらけの鳥の糞をなめて救急車で緊急搬送をされる
                                 </dd>
                               </dl>
-                              <dl class="clearfix">
+                              <dl class="clearfix" sytle="left:1670px;">
                                 <dt>2000.xx.xx</dt>
                                 <dd>
                                   色々あってマンホールの蓋が落ちてきて左腕を複雑骨折する
                                 </dd>
                               </dl>
-                              <dl class="clearfix">
+                              <dl class="clearfix" sytle="left:2505px;">
                                 <dt>2001.xx.xx</dt>
                                 <dd>
                                   兄に二段ベッドから落とされて鎖骨を骨折する
@@ -89,9 +93,7 @@
                               </dl>
 
                             </div><!--marquee_wrap-->
-                            <div id="marquee_tooltip">
 
-                            </div>
 
                         </dd><!--marquee-->
 
@@ -112,8 +114,8 @@
                         <div class="clearfix news_box_list">
                           <div class="l">
                             <h3><span id="square"></span>岐阜聖徳学園　教育学部　英語専修卒業</h3>
-                            <p id="line_height">大学では小学校、中学校、高校の教員免許を取得しました。部活動ではバスケットボール部に所属
-                            をしてスタメンとしてバスケ部の岐阜リーグ優勝に貢献をしました。学校という小さなコミュニティーではなく
+                            <p id="line_height">大学では小学校、中学校、高校の英語教員免許を取得しました。部活動では週5日バスケットボール部として活動をし、
+                            スタメンとしてバスケ部の岐阜リーグ優勝に貢献をしました。学校という小さなコミュニティーではなく
                           社会に出て活躍したいと思い企業に就職しました。</p>
 
                           </div>
@@ -126,8 +128,9 @@
                         <div class="clearfix news_box_list">
                           <div class="l">
                             <h3><span id="square"></span>アメリカのボストンへ９ヶ月間の留学</h3>
-                            <p id="line_height">周りが教育実習をする中アメリカ留学を決めて現地の語学学校に９ヶ月間通いました。現地ではバスケットボール
-                            を通じて現地の友達を作りその環境を楽しみました。その成果として帰国後TOEICの最高スコアは920点になりました。</p>
+                            <p id="line_height">大学４年の時アメリカ留学を決めて現地の語学学校に９ヶ月間通いました。現地では現地人の彼女を作って
+                              語学の向上に努めました、、、とはいかずしっかり日本人の彼女と１ヶ月間付き合いました！罪悪感から勉学に励み
+                              その成果として帰国後TOEICの最高スコアは920点になりました。</p>
 
                           </div>
                           <div class="r">
@@ -237,16 +240,31 @@
                     </div><!--medianews_box_inner>
 
                   </div><!-medianews_box-->
-                  <div id="fuzake_box">
+                  <div id="fuzake_box" class="clearfix">
                     <div id="fuzake_box_inner">
                       <div id="fuzake_box_ttl">
                         <h2>???</h2>
                       </div>
-                      
+                      <div id="fuzake_box_details">
+                       <div id="circle_box">
+                         <p>Do You Want To Hire Me?</p>
+
+                       </div>
+                       <div id="main_image">
+                         <img src="imgs/dogeza.jpg" width="500" height="500" alt="Photo">
+                       </div>
+                      <div id="sub_img">
+                       <ul>
+                         <li id="thanks"><a href="images/thanks.jpg"><p>yes</p></a></li>
+                         <li id="omg"><a href="images/omg.jpg"><p>no</p></a></li>
+                       </ul>
+                      </div>
+
+                      </div>
 
 
-
-                    </div><!--fuzake_box-->
+                    </div><!--fuzake_box_details--->
+                    </div><!--fuzake_box_inner-->
 
 
                   </div><!--fuzake_box-->
@@ -262,4 +280,7 @@
       </div><!--header-->
 
     </div><!--wrapper-->
+    <script type="text/javascript">
+   $('#circle_box p').arctext({radius: 300});
+</script>
   </body>
