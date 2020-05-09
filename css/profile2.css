@@ -108,69 +108,42 @@ body {
 
 
 /*---------------*/
+#top_message_box{
+  background: #C0C0C0;
+  margin: 20px 0 20px 0;
+  padding: 10px;
 
-
-
-#top_message_box_innner{
-  widh:950px;
-  padding: 5px;
-  background: #C0C0C0
 }
 
-#message_box{
-  background: #fff;
-  height: 32px;
+#ticker_roll{
+  display: block;
   overflow: hidden;
-
-}
-
-#message_box dt{
-  float: left;
-}
-
-#message_box dd{
+  position: relative;
   height: 32px;
-  float: left;
+  background-color: #fff
 }
 
-
-#marquee {
-    width: 835px;
-    position: relative;
-    overflow: hidden;
-    color: #333;
-    font-weight: bold;
-}
-
-#marquee_wrap {
-    height: 32px;
-    width: 3340px
-}
-
-#marquee_wrap dl{
-  height: 32px;
-  line-height: 32px
-  width：835px;
-}
-
-#marquee_wrap dt{
-  float: left;
-}
-
-#marquee_wrap dd{
-  float: left;
+#ticker_roll ul{
+  display: flex;
   height: 32px;
 }
 
-#top_box {
-    padding: 20px 0 0 0;
+.ticker li{
+  width: 844px;
+
 }
+
+#mawasu ul{
+  width: 3376px;
+}
+
 /*------------------*/
 
 #news_box{
   display: block;
   background: #C0C0C0;
   margin: 20px 0 20px 0;
+
 }
 
 #news_box_inner{
@@ -381,8 +354,11 @@ body {
 
 #fuzake_box_details{
   display: block;
-  background-color: #fff;
-  padding: 10px
+
+  background: url("../images/ocean.jpg");
+  background-size: cover;
+
+
 }
 
 #main_image img{
@@ -391,6 +367,8 @@ body {
 
 #fuzake_box_inner{
 text-align: center;
+
+
 }
 
 #sub_img li{
@@ -402,10 +380,25 @@ text-align: center;
   background-color: #FFBA00;
   width: 100px;
   height: 30px;
+  border-radius: 3px;
 }
 
 #omg {
   background-color: #FFBA00;
   width: 100px;
   height: 30px;
+  border-radius: 3px;
+  margin-left: 40px;
+}
+
+
+#circle_box span {
+   background-color: #FFBA00;
+   color: white;
+   border-radius: 15px;
+   padding: 2px;
+}
+
+#circle_box p{
+  font-size:20px;
 }
