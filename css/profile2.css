@@ -521,3 +521,58 @@ text-align: center;
   margin-left: 30px;
   margin-top: 30px;
 }
+
+/*-------------------------*/
+
+#works_box_ttl h2{
+  font-size: 1.9rem;
+}
+#works_box{
+  display: block;
+  background: #292828;
+  margin: 20px 0 20px 0;
+  border-top: solid 5px #7a7878;
+}
+
+#works_box_inner{
+  padding: 10px;
+  background: #292828;
+}
+
+
+#works_box_ttl{
+  position: relative;
+  padding: 0 0 10px 0;
+}
+
+
+
+#works_box_details{
+  display: block;
+  background-color: #fff;
+  padding: 10px 10px 0px 10px;
+  display: flex;
+}
+
+
+#works_box_r{
+  width: 100%;
+  text-align: center;
+  margin:15px;
+  line-height: 2.6rem;
+}
+
+.app_ttl{
+  font-size: 2rem;
+  margin: 15px;
+}
+
+#works_box_user{
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+#works_box_user a{
+  text-decoration: none;
+  color: red;
+}
