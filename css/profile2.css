@@ -494,7 +494,6 @@ text-align: center;
     margin: 0;
     width: 100%;
 
-
 }
 #footer_inner {
   display: flex;
@@ -543,6 +542,7 @@ text-align: center;
 #works_box_ttl{
   position: relative;
   padding: 0 0 10px 0;
+
 }
 
 
@@ -563,13 +563,16 @@ text-align: center;
 }
 
 .app_ttl{
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 15px;
+  font-family: 'Amatic SC', cursive;
+
 }
 
 #works_box_user{
   border: 1px solid #000000;
   border-radius: 5px;
+  margin-top: 40px;
 }
 
 #works_box_user a{
