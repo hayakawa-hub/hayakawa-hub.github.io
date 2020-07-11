@@ -165,7 +165,10 @@ h2{
 
 
 /*------------------*/
-
+.focus{
+  background-color: #ffff66;
+  color: #ff3333;
+}
 #news_box_ttl h2{
   font-size: 1.9rem;
 }
@@ -208,6 +211,15 @@ h2{
 .l h3{
   margin:0 0 20px 0;
   font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.hobby_instruction{
+  font-size: rem;
+}
+
+#hobby_box_introduction p{
+  font-size: 1.3rem;
 }
 
 #line_height{
@@ -346,6 +358,13 @@ h2{
     height: auto ;
     margin-bottom: 20px;
     text-align: center;
+}
+#hobby_box_second_ttl p{
+  font-size: 1.3rem;
+}
+#hobby_box_first_ttl p{
+  font-size: 1.3rem;
+
 }
 
 #hobby_box_first_info p{
@@ -560,6 +579,9 @@ text-align: center;
   text-align: center;
   margin:15px;
   line-height: 2.6rem;
+}
+#works_box_r h3{
+  font-size: 2.4rem;
 }
 
 .app_ttl{
